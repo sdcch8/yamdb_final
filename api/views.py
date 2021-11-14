@@ -8,6 +8,7 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.viewsets import GenericViewSet, generics
 from rest_framework_simplejwt.tokens import AccessToken
+
 from reviews.filters import TitleFilter
 from reviews.models import Category, Comment, Genre, Review, Title
 from users.models import User
