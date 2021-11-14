@@ -153,6 +153,7 @@ class UserViewSet(viewsets.ModelViewSet):
                     serializer.update(instance=user,
                                       validated_data=serializer.validated_data)
             return Response(serializer.data, status=status.HTTP_200_OK)
+        return None
 
 
 @api_view(['POST'])

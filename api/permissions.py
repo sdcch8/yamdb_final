@@ -18,6 +18,7 @@ class AdminOrReadOnly(permissions.BasePermission):
         if (request.user.is_authenticated):
             return (request.user.role == User.ADMIN
                     or request.user.is_superuser is True)
+        return None
 
 
 class IsOwnerOrAdminOrModeratorOrReadOnly(
