@@ -11,7 +11,7 @@ services:
       - ./.env
       
   web:
-    build: .
+    image: sdcch8/yamdb_final:latests
     restart: always
     volumes:
       - static_value:/code/static/
