@@ -58,5 +58,5 @@ docker-compose exec web python manage.py createsuperuser
 
 Для заполнения базы данных начальными тестовыми данными используйте команду:
 ```
-docker-compose exec -T web python manage.py loaddata < fixtures.json
+docker-compose exec web python manage.py loaddata < fixtures.json
 ```
