@@ -1,3 +1,5 @@
+Адрес сервера, на котором развёрнут сайт: http://51.250.6.19/
+
 ![workflow status](https://github.com/sdcch8/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 ## Описание проекта:
